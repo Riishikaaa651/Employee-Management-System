@@ -1,0 +1,39 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Backend build output
+backend/target/
+*.class
+*.log
+hs_err_pid*
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+frontend/coverage/
+*.tsbuildinfo
+
+# IDEs and OS files
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+.settings/
+.project
+.classpath
+.factorypath
+.DS_Store
+Thumbs.db
+
+# Logs from local runs
+logs/
+preview-*.log
+npm-debug.log*
+
+# Editor-generated tooling folders (not part of the project)
+.github/modernize/

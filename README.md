@@ -1,6 +1,6 @@
 # Employee Management System
 
-A full-stack web application that lets an administrator manage employee records: create, view, edit and delete employees, search by name or email, filter by department and employment status, and page through results. Built for the Kloudspot Software Engineer / Backend (Fresher) technical assessment.
+A full-stack web application that lets an administrator manage employee records: create, view, edit and delete employees, search by name or email, filter by department and employment status, and page through results. 
 
 ---
 

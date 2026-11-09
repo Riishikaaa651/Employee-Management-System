@@ -375,4 +375,4 @@ $env:ADMIN_USERNAME='admin'; $env:ADMIN_PASSWORD='choose-a-password'; .\mvnw.cmd
 - No login rate limiting or account lockout.
 - Backend integration tests use H2 in MySQL compatibility mode rather than a real MySQL instance (no Testcontainers). The MySQL-specific path (driver, Flyway migrations on MySQL) is exercised when you run the application.
 - The session store is in-memory: sessions are lost when the backend restarts, and the app runs as a single instance only.
-- Development setup only. A production deployment would add HTTPS (and `Secure` cookies), a reverse proxy serving `frontend/dist`, externalised secrets and monitoring.
+- Development setup only. A production deployment would add HTTPS (and `Secure` cookies), a reverse proxy serving `frontend/dist`, secret extranalisation and monitoring.

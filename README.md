@@ -123,7 +123,7 @@ Choose **one** option.
 - `V1__create_employees_table.sql`: the `employees` table with `BIGINT` auto-increment ID, `DATE` joining date, `DECIMAL(12,2)` salary, a **unique index on email**, CHECK constraints (salary ≥ 0, status ∈ ACTIVE/INACTIVE) and indexes on department, status and name.
 - `V2__create_app_users_table.sql`: login accounts (username unique, BCrypt hash, role).
 
-Hibernate is set to `ddl-auto=none`. It never creates, alters or drops tables, and startup never deletes existing data.
+Hibernate is set to `ddl-auto=none`. It never creates, alters or drops tables, and startup never deletes the data which exists.
 
 ## 6. Environment variables
 
